@@ -9,8 +9,6 @@ extern crate tun;
 
 #[tokio::main]
 async fn main() {
-  // println!("Hello, world!");
-
   let matches = App::new("TorBox Tunnel")
     .version(env!("CARGO_PKG_VERSION"))
     .author("Luca")
